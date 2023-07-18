@@ -1,8 +1,17 @@
 <script>
+export default {
+  setup () {
+    const message = "Hello"
+
+    return {
+      message
+    }
+  }
+}
 </script>
 
 <template>
-  <h1>Hello world!</h1>
+  <h1>{{ message }}</h1>
 </template>
 
 <style scoped>
